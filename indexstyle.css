@@ -1,0 +1,53 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    width: 120px;
+}
+
+a:link, a:visited {
+    padding: 4px;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+a:hover, a:active {
+    color: #7D8F8F;
+    text-decoration: underline;
+}
+
+#header {
+    width: 97.5%;
+    margin-bottom: 30px;
+    margin-top:-20px;
+}
+
+#logoplusform {
+    margin-top: 40px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    height: 35px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#leftfoot {
+    float: left;
+}
+
+#rightfoot {
+    float: right;
+}
