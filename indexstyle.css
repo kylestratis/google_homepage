@@ -1,3 +1,7 @@
+html {
+    font-size: small;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,8 +14,8 @@ li {
 }
 
 a {
-    display: block;
-    width: 120px;
+    display: inline-block;
+    color: #222;
 }
 
 a:link, a:visited {
@@ -21,14 +25,45 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color: #7D8F8F;
     text-decoration: underline;
+}
+
+#view {
+    font: 13px/27px Arial, sans-serif;
+    font-color: black;
 }
 
 #header {
     width: 97.5%;
-    margin-bottom: 30px;
-    margin-top:-20px;
+    text-align: right;
+    display: inline-block;
+    height: 60px
+    line-height: 58px;
+    vertical-align: middle;
+}
+
+#header ui li a {
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.profile {
+    text-align: right;
+}
+
+.gmail {
+    text-align: right;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+.images {
+    text-align: right;
+    padding-left: 15px;
+    vertical-align: middle;
 }
 
 #logoplusform {
@@ -42,6 +77,10 @@ a:hover, a:active {
     bottom: 0;
     position: absolute;
     width: 100%;
+}
+
+.footer ul li a {
+    width: 120px;
 }
 
 #leftfoot {
