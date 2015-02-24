@@ -18,6 +18,14 @@ a {
     color: #222;
 }
 
+form {
+    max-width: 572px;
+}
+
+input {
+    width: 100%;
+}
+
 a:link, a:visited {
     padding: 4px;
     text-align: center;
@@ -42,7 +50,11 @@ a:hover, a:active {
     vertical-align: middle;
 }
 
-#header ui li a {
+#header ul {
+    float: right;
+}
+
+#header ul li a {
     vertical-align: middle;
     white-space: nowrap;
     margin-left: 0;
@@ -68,6 +80,32 @@ a:hover, a:active {
 
 #logoplusform {
     margin-top: 40px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#mainButtons .googlesearch {
+    display:inline-block;
+    font-weight: bold;
+    height: 29px;
+    line-height: 29px;
+    min-width: 54px;
+    padding: 0 8px;
+    border: 1px;
+    margin: 16px 8px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+
+.googlesearch {
+    border: 1px solid #dcdcdc;
+    font-size: 11px;
+    border-color: rgba(0,0,0,0.1);
+    color: #444;
+    font-size: 11px;
 }
 
 .footer {
