@@ -86,17 +86,12 @@ form {
     margin-bottom: 20px;
 }
 
-#mainButtons .googlesearch {
-    display:inline-block;
-    font-weight: bold;
-    height: 29px;
-    line-height: 29px;
-    min-width: 54px;
-    padding: 0 8px;
-    border: 1px;
-    margin: 16px 8px;
-    text-align: center;
-    border-radius: 2px;
+#mainButtons {
+    color: white;
+     background: #2E8AE6;
+     border:none;
+     height:30px;
+     width:70px;
 }
 
 
